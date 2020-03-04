@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: 'gt_americamedium';
+    src: url('gtamericamedium-webfont.woff2') format('woff2'),
+         url('gtamericamedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+
+}
+
+ a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#006fbe;
+    transform: scale(0.2);
+}
+
+body{
+    background-color:#ebedfb;
+}
+
+#topheader{
+height: 14vh;
+width: 100w;
+font-family:'gt_americamedium';
+
+
+    display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:flex-end;
+background-color:#ebedfb;
+
+text-decoration:none;
+}
+
+.headertext{
+    color:#004170;
+    font-size:3em;
+    margin:.5em;
+    text-decoration:none;
+   
+}
+
+
+#title{
+    margin:.9em;
+display:flex;
+flex-direction:row;
+justify-content:center;;
+align-items:center;
+
+}
+
+.titletext{
+    font-family:'gt_americamedium';
+    font-size:10em;
+    text-decoration:none;
+color:#004170;
+padding:.3em;
+}
+
+.titletext:hover{
+    transform: scale(0.99);
+}
+
+
+
+
+#someForm{
+width:100vw;
+
+    display:flex;
+flex-direction:Column;
+align-items:center;
+justify-content:center;
+color:#374047;
+
+}
+
+.Text1{
+
+ 
+  font-family:'gt_americamedium';
+    font-size:2em;
+ 
+}
+
+#FormText1{
+
+
+font-size:medium;
+color:#374047;
+  width:50vw;
+height:20vh;
+margin:5em;
+
+
+}
+
+#FormText2{
+
+
+    font-size:medium;
+    color:#374047;
+      width:50vw;
+    height:20vh;
+    margin:5em;
+    
+    
+    }
+
+    #FormText3{
+
+
+        font-size:medium;
+        color:#374047;
+          width:50vw;
+        height:20vh;
+        margin:5em;
+        
+        
+        }
+
+        #FormText4{
+
+
+            font-size:medium;
+            color:#374047;
+              width:50vw;
+            height:20vh;
+            margin:5em;
+            
+            
+            }
+
+
+            #FormText5{
+
+
+                font-size:medium;
+                color:#374047;
+                  width:50vw;
+                height:20vh;
+                margin:5em;
+                
+                
+                }
+#button{
+   
+margin: 3vh;
+padding:3vh;
+
+}
+#button:hover{
+    color:#006fbe;;
+}
+
+.redirect{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    font-family:'gt_americamedium';
+    font-size:2em;
+}
